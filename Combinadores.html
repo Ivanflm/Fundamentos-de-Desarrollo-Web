@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div p{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .container > p{
+            text-align: justify;
+        }
+
+        .container > div + p{
+            text-align: justify;
+        }
+
+        div + p{
+            color: darkgreen;
+        }
+
+        div ~ p{
+            border: solid red 2px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum id odio velit? Sit ducimus facere tenetur deleniti, sapiente veritatis, natus accusantium vero temporibus numquam optio ratione adipisci officiis quas laboriosam.
+        </p>
+    </div>
+   
+    <div>
+        <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. In voluptate a, ullam quia quidem voluptatibus, magni debitis error laudantium quaerat cumque sint, quo itaque quam beatae odit eum illum! Molestiae.
+        </p>
+       
+    </div>
+    <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. In voluptate a, ullam quia quidem voluptatibus, magni debitis error laudantium quaerat cumque sint, quo itaque quam beatae odit eum illum! Molestiae.
+    </p>
+    <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. In voluptate a, ullam quia quidem voluptatibus, magni debitis error laudantium quaerat cumque sint, quo itaque quam beatae odit eum illum! Molestiae.
+    </p>
+    <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. In voluptate a, ullam quia quidem voluptatibus, magni debitis error laudantium quaerat cumque sint, quo itaque quam beatae odit eum illum! Molestiae.
+    </p>
+
+    
+</body>
+</html>
